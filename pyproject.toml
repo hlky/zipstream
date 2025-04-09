@@ -1,0 +1,13 @@
+[project]
+name = "zipstream"
+version = "0.1.0"
+description = "Stream individual files from remote ZIP archives using HTTP range requests"
+authors = [{name = "hlky", email = "hlky@hlky.ac"}]
+license = "Apache-2.0"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["requests", "tqdm"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
